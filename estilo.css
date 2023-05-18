@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(144, 147, 148);
+    background-color: rgb(255, 255, 255);
 }
 header{
     background-color: rgb(50, 119, 175);
@@ -10,6 +10,7 @@ color: white;
 font-size: 5em;
 font-weight: 700;
 text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #ulno{
     text-align: center;
@@ -23,16 +24,15 @@ margin: 2em;
 .papu {
     text-decoration: none;
     color: rgb(241, 154, 22);
-    padding: 5px;
+    padding: 2px;
     border-radius: 5px;
     font-size: 2em;
     display: inline-block;
 }
 
-picture {
+picture{
 display: flex;
 justify-content: center;
-
 }
 
 #imgi{
@@ -42,5 +42,86 @@ width: 20%;
 
 .pelo{
 width: 20%;
+}
 
+
+#ten{
+width: 12%;
+text-decoration: none;
+border: 2px solid rgb(29, 74, 33);
+padding: 3px;
+border-radius: 5px;
+display: inline-block;
+}
+
+#ten:hover{
+    background-color: rgba(57, 204, 64, 0.344);
+}
+
+#carrito{
+    width: 3%;
+}
+
+p {
+    color: rgb(163, 54, 54);
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#ulno li:hover{
+    background-color: rgba(208, 114, 37, 0.344);  
+    padding: 2em;
+}
+
+#messi{
+    width: 12%;
+    text-decoration: none;
+    border: 2px solid rgb(53, 93, 212);
+    padding: 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#messi:hover{
+    background-color: rgba(51, 194, 204, 0.344);
+}
+
+h2{
+    font-weight: 900
+}
+
+#raq{
+    width: 12%;
+    text-decoration: none;
+    border: 2px solid rgb(122, 39, 39);
+    padding: 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#raq:hover{
+    background-color: rgba(108, 47, 47, 0.344);
+}
+#copy{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contac{
+    color: black;
+}
+
+#ig{
+    width: 6%;
+}
+#fb{
+width: 6%;
+}
+#tik{
+    width: 6%;
+}
+
+
+#con{
+    list-style: none;
 }
